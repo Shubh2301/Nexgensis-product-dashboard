@@ -64,8 +64,7 @@ function AddProduct() {
   };
 
   return (
-    <div className="relative min-h-screen overflow-hidden bg-gradient-to-br from-[#DCE8F4] via-[#E5EEF6] to-[#EBF2F8] p-4 sm:p-6">
-
+ <div className="relative min-h-screen overflow-hidden bg-linear-to-br from-[#DCE8F4] via-[#E5EEF6] to-[#EBF2F8] p-4 sm:p-6">
       {/* Decorative Background */}
       <div className="absolute -left-24 -top-24 h-72 w-72 rounded-full bg-[#86A1B8]/15 blur-3xl" />
       <div className="absolute -bottom-24 -right-24 h-80 w-80 rounded-full bg-[#364669]/10 blur-3xl" />

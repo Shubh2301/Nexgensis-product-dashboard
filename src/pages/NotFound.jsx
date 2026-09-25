@@ -4,7 +4,7 @@ function NotFound() {
   const navigate = useNavigate();
 
   return (
-    <div className="relative flex min-h-screen items-center justify-center overflow-hidden bg-gradient-to-br from-[#DCE8F4] via-[#E5EEF6] to-[#EBF2F8] p-6">
+    <div className="relative flex min-h-screen items-center justify-center overflow-hidden bg-linear-to-br from-[#DCE8F4] via-[#E5EEF6] to-[#EBF2F8] p-6">
 
       {/* Decorative Background */}
       <div className="absolute -left-24 -top-24 h-72 w-72 rounded-full bg-[#86A1B8]/15 blur-3xl" />
@@ -23,7 +23,7 @@ function NotFound() {
           404
         </h1>
 
-        <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-gradient-to-r from-[#86A1B8] to-[#364669]" />
+        <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-[#3A4B75]" />
 
         {/* Heading */}
         <h2 className="mt-6 text-2xl font-bold text-[#1A1D1F] sm:text-3xl">

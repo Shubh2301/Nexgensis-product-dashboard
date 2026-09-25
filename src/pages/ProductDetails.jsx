@@ -47,8 +47,8 @@ function ProductDetails() {
 
   if (error) {
     return (
-      <div className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-[#DCE8F4] via-[#E5EEF6] to-[#EBF2F8] p-6">
-        
+      <div className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-linear-to-br from-[#DCE8F4] via-[#E5EEF6] to-[#EBF2F8] p-6">
+
         {/* Decorative Background */}
         <div className="absolute -left-24 -top-24 h-72 w-72 rounded-full bg-[#86A1B8]/15 blur-3xl" />
         <div className="absolute -bottom-24 -right-24 h-80 w-80 rounded-full bg-[#364669]/10 blur-3xl" />
@@ -72,7 +72,7 @@ function ProductDetails() {
   }
 
   return (
-    <div className="relative min-h-screen overflow-hidden bg-gradient-to-br from-[#DCE8F4] via-[#E5EEF6] to-[#EBF2F8] p-4 sm:p-6">
+    <div className="relative min-h-screen overflow-hidden bg-linear-to-br from-[#DCE8F4] via-[#E5EEF6] to-[#EBF2F8] p-4 sm:p-6">
 
       {/* Decorative Background */}
       <div className="absolute -left-24 -top-24 h-72 w-72 rounded-full bg-[#86A1B8]/15 blur-3xl" />
@@ -92,7 +92,7 @@ function ProductDetails() {
         <div className="overflow-hidden rounded-3xl border border-white/70 bg-white/75 shadow-[0_20px_60px_rgba(54,70,105,0.12)] backdrop-blur-xl">
 
           {/* Product Image */}
-          <div className="bg-gradient-to-br from-[#F7F9FC] to-[#EEF3F8] p-6 sm:p-10">
+          <div className="bg-linear-to-br from-[#F7F9FC] to-[#EEF3F8] p-6 sm:p-10">
             <div className="flex min-h-[280px] items-center justify-center rounded-2xl bg-white/70 p-6">
               <img
                 src={product.thumbnail}

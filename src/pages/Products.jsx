@@ -57,7 +57,7 @@ function Products() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#DCE8F4] via-[#E5EEF6] to-[#EBF2F8] p-4 sm:p-6">
+  <div className="min-h-screen bg-linear-to-br from-[#DCE8F4] via-[#E5EEF6] to-[#EBF2F8] p-4 sm:p-6">
       <div className="mx-auto max-w-7xl">
 
         {/* Header */}
@@ -377,7 +377,8 @@ function Products() {
                       <p className="mt-1 text-sm text-[#6F767E]">
                         ★ {product.rating}
                       </p>
-                    </div>
+
+          </div>
                   </div>
 
                   {/* Mobile Actions */}
